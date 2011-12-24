@@ -15,6 +15,7 @@ $(function(){
 	});
 
 	$('.ui-btn-text:contains("Back")').live("click", function(){
+		$('#external-iframe').hide();
 		$('#title-list').show();
 	});
 
